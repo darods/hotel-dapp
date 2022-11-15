@@ -1,8 +1,20 @@
-# The Airline - An Ethereum learning DAPP
+# Reserva de hotel - Ethereum DAPP
+Proyecto en desarrollo. Plantaforma de reserva de habitaciones de hotel por
+medio de una aplicación descentralizada.
+Utiliza:
+* Frontend : React
+* Blockchain lang: Solidity
+* Suit desarrollo: Trufle
+* Servidor Blockchain : Ganache
 
-**Source template for my Udemy Ethereum training course at Udemy**
+<img src="./img/hotel-dapp.png">
 
-**If you want to get the final version of the code you can check the [final](https://github.com/CarlosLanderas/udemy-ethereum-the-airline/tree/final) branch**
+## Esturctura del proyecto
+* Contratos inteligentes: carpeta `contracts`
+* Pruebas de contratos: carpeta `test`
+* Front end: `src`
 
-<img src="http://introtocrypto.com/wp-content/uploads/2017/08/ether@2x.png" height="128" width="128">
-
+## Despliegue
+1. Lanzar servidor de Ganache
+2. Escribir `npm start`
+3. Connectar wallet a Ganache
